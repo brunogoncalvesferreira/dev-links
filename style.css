@@ -29,6 +29,7 @@
 body {
   /* background: color, image, repeat, position, size */
   background: var(--bg-url) no-repeat top center/cover;
+  height: 100vh;
 }
 
 #container {
@@ -158,4 +159,11 @@ footer {
   padding: 24px 0;
   text-align: center;
   font-size: 14px;
+}
+
+/* responsive */
+@media (max-width: 768px) {
+  html {
+    font-size: 80%;
+  }
 }
